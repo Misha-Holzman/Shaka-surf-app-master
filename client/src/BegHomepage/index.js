@@ -20,6 +20,7 @@ class BegHomePage extends Component {
 
   // if location is 5 char string, hit the api to return lat long
   // if location is array, hit the api to return zip
+  
 
   async handleZipcodeChange (userZipcode) {
     const currentLocation = await this.convertZip(userZipcode)

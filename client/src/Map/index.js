@@ -24,7 +24,7 @@ class Mapbox extends Component {
     //     .then((locations) => {
     //         this.setState(locations);
     //         // console.log("state", locations);
-    //     })
+    //     }) 
     // }
     // _renderMarker = (result, i) => {
     //     console.log(result)

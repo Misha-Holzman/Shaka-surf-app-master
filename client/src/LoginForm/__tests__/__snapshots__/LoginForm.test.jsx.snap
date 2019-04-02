@@ -11,7 +11,7 @@ exports[`LoginForm should render 1`] = `
 >
   <div
     className="hero-body"
-  >
+  > 
     <div
       className="container has-text-centered"
     >

@@ -54,7 +54,7 @@ class Navbar extends Component {
   }
 
   render () {
-    const { isLoggedIn } = this.state
+    // const { isLoggedIn } = this.state
     return (
       <div className='nav-container'>
         <ul className='nav'>
@@ -82,7 +82,6 @@ class Navbar extends Component {
             </a>
             {/*
             <div>
-              
               // login form not functioning yet.
               
               {!isLoggedIn ? (

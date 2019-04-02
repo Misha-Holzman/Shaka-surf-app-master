@@ -23,6 +23,7 @@ describe('TokenService', () => {
     expect(TokenService.token).toBeNull();
   });
 
+  
   it('should destroy a token', () => {
     const myToken = 'my-special-token';
 

@@ -9,7 +9,7 @@ describe('LoginForm', () => {
     const fn = jest.fn();
     const component = renderer.create(
       <LoginForm submitAction={fn} />
-    );
+    )
 
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();

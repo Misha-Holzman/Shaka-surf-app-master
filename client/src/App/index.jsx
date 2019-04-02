@@ -20,7 +20,6 @@ class App extends React.Component {
   //   this.state = {
 
   //   };
-
   //   this.getAllUsers = this.getAllUsers.bind(this);
   //   this.tryLogin = this.tryLogin.bind(this);
   //   this.logout = this.logout.bind(this);

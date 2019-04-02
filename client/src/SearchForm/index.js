@@ -32,6 +32,7 @@ class SearchBar extends Component {
 
   render () {
     // const zipcode = this.props.zipcode;
+    
     return (
       <div className='search-form-container'>
         <form onSubmit={this.handleSubmit} className='theForm'>

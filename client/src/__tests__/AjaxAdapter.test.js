@@ -23,6 +23,7 @@ describe('AjaxAdapter', () => {
     });
   });
 
+  
   it('should call the constructor', () => {
     expect(mockAxios.create.mock.calls[0]).toMatchSnapshot();
   })

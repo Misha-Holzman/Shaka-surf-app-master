@@ -10,7 +10,7 @@ class QuoteAndImage extends Component {
           <p className="quote-author">Laird Hamilton</p>
         </div>
       </div>
-    );
+    )
   }
 }
 

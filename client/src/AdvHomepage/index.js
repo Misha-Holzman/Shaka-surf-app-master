@@ -24,9 +24,8 @@ class AdvHomePage extends Component {
         let locationData = response.data.data.request[0];
         let weatherData = response.data.data.weather[0];
 
-        console.log(locationData);
-        console.log(weatherData);
-
+        // console.log(locationData);
+        // console.log(weatherData);
 
         const info = {
           location: locationData.query,

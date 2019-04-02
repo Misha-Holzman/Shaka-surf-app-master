@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 import {
   Field,
   Control,
@@ -13,15 +13,15 @@ import {
   Box,
   Title,
   Subtitle
-} from "bloomer";
+} from 'bloomer'
 
 export default class Form extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      email: "",
-      password: ""
+      email: '',
+      password: ''
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -48,8 +48,8 @@ export default class Form extends React.Component {
 
     // reset the form
     this.setState({
-      email: "",
-      password: ""
+      email: '',
+      password: ''
     });
   }
 
@@ -58,22 +58,22 @@ export default class Form extends React.Component {
     const { email, password } = this.state;
     return (
       // <Hero
-      //   isColor="light"
+      //   isColor='light'
       //   isFullHeight
-      //   style={{ marginTop: "10px", color: "white", marginRight: "30px" }}
+      //   style={{ marginTop: '10px', color: 'white', marginRight: '30px' }}
       // >
-        <HeroBody style={{ width: "100%", padding: "8px 0px 8px 0px"}}>
-          <Container hasTextAlign="centered" style={{ width: "100%" }}>
+        <HeroBody style={{ width: '100%', padding: '8px 0px 8px 0px'}}>
+          <Container hasTextAlign='centered' style={{ width: '100%' }}>
             <Columns>
               <Column isSize={12} isOffset={0}>
                 <Box>
                   {/*
                   <Title
                     style={{
-                      color: "black",
-                      borderRadius: "20px",
-                      backgroundColor: "rgba(255, 255, 255, 0.7)",
-                      padding: "5px"
+                      color: 'black',
+                      borderRadius: '20px',
+                      backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                      padding: '5px'
                     }}
                   >
                     Log in to your accout:
@@ -84,11 +84,11 @@ export default class Form extends React.Component {
                     <Field>
                       <Control>
                         <Input
-                          style={{ border: "solid black 1px" }}
-                          name="email"
+                          style={{ border: 'solid black 1px' }}
+                          name='email'
                           isSize={size}
                           onChange={this.handleChange}
-                          placeholder="Email"
+                          placeholder='Email'
                           value={email}
                         />
                       </Control>
@@ -97,14 +97,14 @@ export default class Form extends React.Component {
                       <Control isExpanded>
                         <Input
                           style={{
-                            border: "solid black 1px",
-                            marginTop: "4px"
+                            border: 'solid black 1px',
+                            marginTop: '4px'
                           }}
-                          name="password"
+                          name='password'
                           isSize={size}
                           onChange={this.handleChange}
-                          type="password"
-                          placeholder="password"
+                          type='password'
+                          placeholder='password'
                           value={password}
                         />
                       </Control>
@@ -113,16 +113,16 @@ export default class Form extends React.Component {
                       <Control>
                         <Button
                           style={{
-                            marginTop: "15px",
-                            backgroundColor: "rgba(255, 255, 255, 1)",
-                            border: "solid black 1px",
-                            borderRadius: "100px",
-                            color: "black",
-                            fontSize: "15px"
+                            marginTop: '15px',
+                            backgroundColor: 'rgba(255, 255, 255, 1)',
+                            border: 'solid black 1px',
+                            borderRadius: '100px',
+                            color: 'black',
+                            fontSize: '15px'
                           }}
-                          type="submit"
+                          type='submit'
                           isSize={size}
-                          isColor="info"
+                          isColor='info'
                           isBlock
                           isFullWidth
                         >
@@ -148,6 +148,6 @@ Form.propTypes = {
 };
 
 Form.defaultProps = {
-  size: "small",
-  buttonText: "Log In"
+  size: 'small',
+  buttonText: 'Log In'
 };

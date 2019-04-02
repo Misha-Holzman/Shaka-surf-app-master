@@ -39,6 +39,7 @@ class Forcasts extends Component {
                   style={{ width: '100%', maxHeight: '695px' }}
                 />
               </div>
+              
               <div className='carousel-item'>
                 <img
                   className='d-block w-100'
